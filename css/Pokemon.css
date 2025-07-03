@@ -1,0 +1,117 @@
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    color:#F0F2BD;
+    text-align: center;
+    background-color: #4B352A;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    background-color: #4B352A;
+    border-radius: 10px; 
+   
+}
+
+
+.link {
+    align-items: center;
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    background-color: slateblue;
+    color: white;
+    text-decoration: none;
+    padding: 1em 2em;
+   
+}
+
+button {
+    background-color: #F0F2BD;
+    padding: 15px 15px;
+    font-size: 16px;
+    border-radius: 5px;;
+    cursor: pointer;
+}
+
+#seleccionar-mascota {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    color:#F0F2BD; 
+    background-color: #4B352A;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.contenedor-opciones{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px; 
+    flex-wrap: wrap; 
+}
+
+#boton-mascotas{
+  padding: 15px;
+  font-size: 16px;
+  background-color: #4B352A;
+  color: #F0F2BD;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.marcos-redondos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    color: #F0F2BD; 
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.botones-ataque {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    padding: 15px;
+    gap: 10px;
+    
+}
+#seleccionar-ataque label{
+    color: #F0F2BD;
+    background-color: #CA7842;
+    margin: 5px;
+}
+
+
+#selecionar-ataque {
+    color: #F0F2BD;
+    background-color:  #CA7842;
+}
+
+#mensajes {
+    display: flex;
+    flex-direction: column;
+    color: #F0F2BD;
+    background-color: #B2CD9C;
+}
+
+#reiniciar-juego {
+    color:#F0F2BD;
+    background-color:  #B2CD9C;
+}
+
+.reiniciarContenedor {
+    padding: 5px; 
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
