@@ -11,44 +11,78 @@
 
 <body>
     <header>
-    <div class="contenedor">
-        <h1>¡Pokemon!</h1>
-        <img src= "https://previews.123rf.com/images/margoorita/margoorita1510/margoorita151000026/47512534-set-of-four-natural-elements-earth-fire-water-air-vector-illustration.jpg" alt="logo" class="logo" />
-    </div>
+        <div class="contenedor">
+            <h1>¡Pokemon!</h1>
+        </div>
     </header>
-    
+
     <section id="seleccionar-mascota" class="marcos-redondos">
         <h2>Elige tu mascota:</h2>
 
-        <div class= "contenedor-opciones">
-            <button id="boton-mascotas"> Selecionar</button>
+        <div class="contenedor-opciones">
 
-            <label for="hipodogue">Hipodogue </label>
-            <input type="radio" name=" mascota" id="hipodogue" />
+            <div class="nombre-mascotas">
+                <div class="opcion-mascota">
+                    <label>
+                        <p>Hipodogue  <input type="radio" name="mascota" id="hipodogue"></p>
+                        <img src="./assets/Hipodogue.png" alt="Hipodogue" />
+                    </label>
 
-            <label for="capipego "> Capipego </label>
-            <input type="radio" name=" mascota" id="capipego" />
+                   
 
-            </label for="ratigueya">Ratigueya</label>
-            <input type="radio" name=" mascota" id="ratigueya" />
+                </div>
+
+                <div class="opcion-mascota">
+                    <label >
+                        <p>Capipego <input type="radio" name="mascota" id="capipego"></p>
+                        <img src="./assets/Capipego.png" alt="Capipego" />
+                    </label>
+
+                    
+                </div>
+
+                <div class="opcion-mascota">
+                    <label> 
+                        <p>Ratigueya <input type="radio" name="mascota" id="ratigueya"></p>
+                        <img src="./assets/Ratigueya.png" alt="Ratigueya" />
+                </label>
+                    
+                </div>
+            </div>
+
+            <button id="boton-mascotas">Seleccionar</button>
         </div>
     </section>
 
 
-    <section id="seleccionar-ataque" class="botones-ataque"> 
+    <section id="seleccionar-ataque" class="botones-ataque">
 
-        <h2>Elige tu ataque:</h2>
+        <div class="h2">
+            <h2>Elige tu ataque:</h2>
 
-        <p> Tu mascota <span id="mascota-Jugador"></span> tiene <span id= "vidas-jugador" >3</span> vidas</p>
-        <p> La mascota <span id="mascota-enemigo" ></span> del enemigo tiene <span id="vidas-enemigo">3</span> vidas</p>        
+            <p> Tu mascota <span id="mascota-Jugador"></span> tiene <span id="vidas-jugador">3</span> vidas</p>
+            <p> La mascota <span id="mascota-enemigo"></span> del enemigo tiene <span id="vidas-enemigo">3</span> vidas
+            </p>
+        </div>
 
-        <span class = "boton-mascota"> 
-    
-            <button id="boton-Fuego"> Fuego🔥</button>
-            <button id="boton-Agua"> Agua💧</button>
-            <button id="boton-Tierra"> Tierra🌱</button>
-            
-            
+        <span class="boton-mascota">
+
+            <button id="boton-Fuego"> 
+                <img src="./assets/ataque fuego.png" alt="Fuego" />
+
+            </button>
+
+            <button id="boton-Agua">
+                <img src="./assets/ataque agua.png" alt="Agua" /> 
+
+            </button>
+
+            <button id="boton-Tierra"> 
+                <img src="./assets/ataque tierra.png" alt="Tierra" />
+
+            </button>
+
+
         </span>
 
     </section>

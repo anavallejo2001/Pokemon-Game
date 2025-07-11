@@ -28,15 +28,18 @@ function iniciarJuego() {
     botonReiniciar.addEventListener("click", reiniciarJuego);
 }
 
-function seleccionarMascotaJugador() { 
-    let sectionseleccionarmascota = document.getElementById("seleccionar-mascota");
+function mostrarSeccionSeleccionarAtaque() {
+        let sectionseleccionarmascota = document.getElementById("seleccionar-mascota");
     sectionseleccionarmascota.style.display = "none";
 
     let sectionSeleccionarataque = document.getElementById("seleccionar-ataque");
-    sectionSeleccionarataque.style.display = "block";
+    sectionSeleccionarataque.style.display = "flex";
     
     let sectionMensajes = document.getElementById("mensajes");
     sectionMensajes.style.display = "block";
+}
+function seleccionarMascotaJugador() { 
+
 
 
     let inputHipodoge = document.getElementById("hipodogue");
@@ -73,6 +76,7 @@ function ataqueTierra() {
         }
 
 function seleccionarMascotaEnemigo() {
+    mostrarSeccionSeleccionarAtaque()
     let mascotaAleatoria = aleatorio(1, 3)
     let spanMascotaEnemigo = document.getElementById("mascota-enemigo");
 
